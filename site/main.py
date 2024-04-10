@@ -3,6 +3,7 @@ from GUI import Interface
 
 class Program:
     def __init__(self):
+        self.dependencies()
         Interface()
 
     def dependencies(self):
